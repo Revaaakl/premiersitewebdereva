@@ -22,7 +22,7 @@ body {
 /* Section Accueil */
 
 .container {
-    background-image: url(../Img/Fond\ Aute\ P.png), url(../Img/Fond\ Section\ Accueil\ P.png);
+    background-image: url(Img/Fond\ Aute\ P.png), url(Img/Fond\ Section\ Accueil\ P.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 102vh;
