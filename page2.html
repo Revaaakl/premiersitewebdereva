@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La galerie | Premier site web de Reva</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="Fav icon" href="./Img/Logo 'Aute.png"/>
+</head>
+<body>
+    <!-- Section Introduction -->
+    <div class="navbar-page">
+        <img src="./Img/1 Accueil/Logo P-test.png" class="logo">
+        <nav class="navlinks">
+            <ul>
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="page1.html">LA TEAM</a></li>
+                <li class="active"><a href="page2.html">LA GALERIE</a></li>
+                <li><a href="page3.html">L'ACTUALITÉ</a></li>
+            </ul>
+        </nav>
+        <img src="./Icons/Menu.png" class="menu">
+    </div>
+    <div class="souvenirs">
+        <div class="text-intro">
+            <h4>Revivons tous nos bons moments</h4>
+            <p>La galerie photo de la team.
+                <br>
+                Redécouvrons ensemble tous ces souvenirs partagés !
+            </p>
+        </div>
+        <div class="dropdowndate">
+            <div class="select">
+                <span class="selected">Choisir une date</span>
+                <img src="./Icons/Flèche Choix date.png" class="caret">
+            </div>
+            <ul class="listedate">
+                <li class="active">Choisir une date</li>
+                <a href="page21.html"><li>2015</li></a>
+                <a href="page21.html"><li>2016</li></a>
+                <a href="page21.html"><li>2017</li></a>
+                <a href="page21.html"><li>2018</li></a>
+                <a href="page21.html"><li>2019</li></a>
+            </ul>
+        </div>
+    </div>
+    <!-- Section Galerie photo -->
+    <div class="galerie-titre">
+        <h4>2015</h4>
+    </div>
+    <div class="galerie1" oncontextmenu="return false;">
+        <div class="popup">
+            <div class="top-bar">
+                <button class="close-btn"><img src="./Icons/close.png"></button>
+            </div>
+            <button class="arrow-btn left-arrow"><img src="./Icons/prev.png"></button>
+            <button class="arrow-btn right-arrow"><img src="./Icons/next.png"></button>
+            <img src="./Img/3Galerie/1.JPG" class="large-image">
+            <h5 class="index">01</h5>
+        </div>
+    
+        <div class ="gallery">
+            <div class="gallery-image">
+                <img src="./Img/3Galerie/1.JPG" class="image">
+            </div>
+            <div class="gallery-image">
+                <img src="./Img/3Galerie/2.JPG" class="image">
+            </div>
+            <div class="gallery-image">
+                <img src="./Img/3Galerie/3.JPG" class="image">
+            </div>
+            <div class="gallery-image">
+                <img src="./Img/3Galerie/4.JPG" class="image">
+            </div>
+            <div class="gallery-image">
+                <img src="./Img/3Galerie/5.JPG" class="image">
+            </div>
+            <div class="gallery-image">
+                <img src="./Img/3Galerie/6.JPG" class="image">
+            </div>
+        </div>
+    </div>
+
+    <a href="#"><img src="./Icons/Scroll back to the top.png" class="scroll-button"></a>
+
+    <footer>
+        <div class="copyright">
+            <p>© 2023, Site internet réalisé par Revaaa</p>
+        </div>
+        <div class="contact">
+            <h4>Me contacter</h4>
+            <p>revaaakl@gmail.com</p>
+            <p>Tahiti, Polynésie Française</p>
+        </div>
+    </footer>
+    <script src="page2.js"></script>
+</body>
+
+<script>
+    const menu = document.querySelector(".menu")
+    const navLinks = document.querySelector(".navlinks")
+
+    menu.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        document.body.classList.toggle('menu-noscroll')
+    })
+</script>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier site web de Reva</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="Fav icon" href="./Img/Logo 'Aute.png"/>
+</head>
+
+<body>
+<!-- Section Accueil -->
+    <div class="container">
+        <div class="navbar">
+            <img src="./Img/1 Accueil/Logo P-test.png" class="logo">
+            <nav class="navlinks">
+                <ul>
+                    <li class="active"><a href="index.html">ACCUEIL</a></li>
+                    <li><a href="page1.html">LA TEAM</a></li>
+                    <li><a href="page2.html">LA GALERIE</a></li>
+                    <li><a href="page3.html">L'ACTUALITÉ</a></li>
+                </ul>
+            </nav>
+            <img src="./Icons/Menu.png" class="menu">
+        </div>
+        <div class="content">
+            <h2>Premier site web</h2>
+            <h3>de Reva</h3>
+        </div>
+    </div>
+
+<!-- Section Actualités -->
+    <section id="actualites">
+        <div class="titre">
+            <h4>Nos dernières actualités</h4>
+        </div>
+        <div class="articles">
+            <div class="article-blog">
+                <div class="article-image">
+                    <a href="page31.html"><img src="./Img/1 Accueil/Article blog 1.JPG"></a>
+                </div>
+                <div class="description">
+                    <span class="titre-article">Un bon titre catching qui fait entre 30 et 60 caractères max</span>
+                    <span class="date-article">Jour Mois 2024</span>
+                    <p>Un résumé ou meta-description qui fait entre 155 et 160 caractères max. Il y a de quoi raconter toute une histoire. Ne pas oublier la phrase “call-to-action”.</p>
+                    <div class="cta">
+                        <a href="page31.html">Lire la suite</a>
+                        <a href="page31.html"><img src="./Icons/Flèche Lire la suite.png"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="article-blog">
+                <div class="article-image">
+                    <a href="page31.html"><img src="./Img/1 Accueil/Article blog 1.JPG"></a>
+                </div>
+                <div class="description">
+                    <span class="titre-article">Un bon titre catching qui fait entre 30 et 60 caractères max</span>
+                    <span class="date-article">Jour Mois 2024</span>
+                    <p>Un résumé ou meta-description qui fait entre 155 et 160 caractères max. Il y a de quoi raconter toute une histoire. Ne pas oublier la phrase “call-to-action”.</p>
+                    <div class="cta">
+                        <a href="page31.html">Lire la suite</a>
+                        <a href="page31.html"><img src="./Icons/Flèche Lire la suite.png"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="article-blog">
+                <div class="article-image">
+                    <a href="page31.html"><img src="./Img/1 Accueil/Article blog 1.JPG"></a>
+                </div>
+                <div class="description">
+                    <span class="titre-article">Un bon titre catching qui fait entre 30 et 60 caractères max</span>
+                    <span class="date-article">Jour Mois 2024</span>
+                    <p>Un résumé ou meta-description qui fait entre 155 et 160 caractères max. Il y a de quoi raconter toute une histoire. Ne pas oublier la phrase “call-to-action”.</p>
+                    <div class="cta">
+                        <a href="page31.html">Lire la suite</a>
+                        <a href="page31.html"><img src="./Icons/Flèche Lire la suite.png"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="article-blog">
+                <div class="article-image">
+                    <a href="page31.html"><img src="./Img/1 Accueil/Article blog 1.JPG"></a>
+                </div>
+                <div class="description">
+                    <span class="titre-article">Un bon titre catching qui fait entre 30 et 60 caractères max</span>
+                    <span class="date-article">Jour Mois 2024</span>
+                    <p>Un résumé ou meta-description qui fait entre 155 et 160 caractères max. Il y a de quoi raconter toute une histoire. Ne pas oublier la phrase “call-to-action”.</p>
+                    <div class="cta">
+                        <a href="page31.html">Lire la suite</a>
+                        <a href="page31.html"><img src="./Icons/Flèche Lire la suite.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+    <footer>
+        <div class="copyright">
+            <p>© 2023, Site internet réalisé par Revaaa</p>
+        </div>
+        <div class="contact">
+            <h4>Me contacter</h4>
+            <p>revaaakl@gmail.com</p>
+            <p>Tahiti, Polynésie Française</p>
+        </div>
+    </footer>
+
+</body>
+
+<!-- Responsive -->
+<script>
+    const menu = document.querySelector(".menu")
+    const navLinks = document.querySelector(".navlinks")
+
+    menu.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        document.body.classList.toggle('menu-noscroll')
+    })
+</script>
+
+</html>
