@@ -763,6 +763,10 @@ section#presentation .profil .traits p {
 }
 
 @media screen and (max-width: 375px) {
+
+    section#presentation {
+        margin-top: 150px;
+    }
     
     section#presentation .profil {
         max-width: 300px;
