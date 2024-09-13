@@ -15,7 +15,7 @@
 body {
     height: 100vh;
     background-color: #F4CECE;
-    background-image: url(../Img/Fond\ Aute\ P.png);
+    background-image: url(Img/Fond\ Aute\ P.png);
     background-size: cover;
 }
 
@@ -240,12 +240,12 @@ body.menu-noscroll {
 
 @media screen and (max-width: 1159px) {
     body {
-        background-image: url(../Img/Fond\ Aute\ 1001px\ P.png);
+        background-image: url(Img/Fond\ Aute\ 1001px\ P.png);
         background-size: cover;
     }
     
     .container {
-        background-image: url(../Img/Fond\ Aute\ 1001px\ P.png), url(../Img/Fond\ Section\ Accueil\ 1001px\ P.png);
+        background-image: url(Img/Fond\ Aute\ 1001px\ P.png), url(Img/Fond\ Section\ Accueil\ 1001px\ P.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -358,12 +358,12 @@ body.menu-noscroll {
     body {
         height: 100vh;
         background-color: #F4CECE;
-        background-image: url(../Img/Fond\ Aute\ 400px\ P.png);
+        background-image: url(Img/Fond\ Aute\ 400px\ P.png);
         background-size: cover;
     }
     
     .container {
-        background-image: url(../Img/Fond\ Aute\ 400px\ P.png), url(../Img/Fond\ Section\ Accueil\ 400px\ P.png);
+        background-image: url(Img/Fond\ Aute\ 400px\ P.png), url(Img/Fond\ Section\ Accueil\ 400px\ P.png);
         background-size: cover;
         background-repeat: no-repeat;
         height: 102vh;

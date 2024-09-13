@@ -64,7 +64,7 @@ images.forEach((item, i) => {
 })
 
 const updateImage = (i) => {
-    let path = `/Img/3Galerie/${i+1}.jpg`;
+    let path = `./Img/3Galerie/${i+1}.jpg`;
     largeImage.src = path;
     imageIndex.innerHTML = `${i+1}`;
     index = i;
