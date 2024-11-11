@@ -60,7 +60,7 @@ images.forEach((item, i) => {
     item.addEventListener('click', () => {
         updateImage(i);
         popup.classList.toggle('active');
-        document.body.classList.toggle('menu-noscroll')
+        document.body.style.overflow = "hidden";
     })
 })
 
@@ -73,6 +73,7 @@ const updateImage = (i) => {
 
 closeBtn.addEventListener('click', () => {
     popup.classList.toggle('active');
+    document.body.style.overflow = "";
 })
 
 leftArrow.addEventListener('click', () => {
