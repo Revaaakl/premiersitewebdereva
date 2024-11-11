@@ -60,6 +60,7 @@ images.forEach((item, i) => {
     item.addEventListener('click', () => {
         updateImage(i);
         popup.classList.toggle('active');
+        document.body.classList.toggle('menu-noscroll')
     })
 })
 
